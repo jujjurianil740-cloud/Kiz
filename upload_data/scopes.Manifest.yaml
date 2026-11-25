@@ -1,0 +1,6 @@
+kind: RawRows
+type: rawTable
+table:
+  dbName: kiz_scopes
+  tableName: list_of_scopes
+key: scope_row_id

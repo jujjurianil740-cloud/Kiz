@@ -1,0 +1,39 @@
+space: sp_kizc_ewp_model
+externalId: EwpSubsystem
+name: EwpSubsystem
+usedFor: node
+properties:
+  subsystemKey:
+    type:
+      type: text
+    nullable: true
+  subsystemCode:
+    type:
+      type: text
+    nullable: true
+  belongsToSystem:
+    type:
+      type: direct
+    nullable: true
+  asset:
+    type:
+      type: direct
+    nullable: true
+  assetMatchScore:
+    type:
+      type: float64
+    nullable: true
+  assetMatchStatus:
+    type:
+      type: text
+    nullable: true
+constraints:
+  uq_subsystemKey:
+    constraintType: uniqueness
+    properties:
+    - subsystemKey
+indexes:
+  ix_belongsToSystem:
+    indexType: btree
+    properties:
+    - belongsToSystem

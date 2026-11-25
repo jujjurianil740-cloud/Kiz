@@ -1,0 +1,57 @@
+space: sp_kizc_ewp_model
+externalId: KizcEwp
+name: Kiz-C EWP gate tracking
+version: v1
+views:
+- type: view
+  space: sp_kizc_ewp_model
+  externalId: EwpProject
+  version: v1
+- type: view
+  space: sp_kizc_ewp_model
+  externalId: EwpScopeSplitBaseSubsystem
+  version: v1
+- type: view
+  space: sp_kizc_ewp_model
+  externalId: EwpArea
+  version: v1
+- type: view
+  space: sp_kizc_ewp_model
+  externalId: EwpInspectionDiscipline
+  version: v1
+- type: view
+  space: sp_kizc_ewp_model
+  externalId: EwpSystem
+  version: v1
+- type: view
+  space: sp_kizc_ewp_model
+  externalId: EwpSubsystem
+  version: v1
+- type: view
+  space: sp_kizc_ewp_model
+  externalId: EwpPerson
+  version: v1
+- type: view
+  space: sp_kizc_ewp_model
+  externalId: EwpDocument
+  version: v1
+- type: view
+  space: sp_kizc_ewp_model
+  externalId: EwpDocumentRevision
+  version: v1
+- type: view
+  space: sp_kizc_ewp_model
+  externalId: EwpWorkScope
+  version: v1
+- type: view
+  space: sp_kizc_ewp_model
+  externalId: EwpGateReview
+  version: v1
+- type: view
+  space: sp_kizc_ewp_model
+  externalId: EwpInspectionAssessment
+  version: v1
+- type: view
+  space: sp_kizc_ewp_model
+  externalId: EwpComment
+  version: v1

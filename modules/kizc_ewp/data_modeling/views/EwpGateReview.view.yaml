@@ -1,0 +1,85 @@
+space: sp_kizc_ewp_model
+externalId: EwpGateReview
+name: EwpGateReview
+version: v1
+implements:
+- type: view
+  space: cdf_cdm
+  externalId: CogniteDescribable
+  version: v1
+- type: view
+  space: cdf_cdm
+  externalId: CogniteSourceable
+  version: v1
+properties:
+  gate:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpGateReview
+    containerPropertyIdentifier: gate
+  scheduledEndTime:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpGateReview
+    containerPropertyIdentifier: scheduledEndTime
+  p6ForecastDate:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpGateReview
+    containerPropertyIdentifier: p6ForecastDate
+  apeForecastDate:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpGateReview
+    containerPropertyIdentifier: apeForecastDate
+  endTime:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpGateReview
+    containerPropertyIdentifier: endTime
+  executionPlanStatus:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpGateReview
+    containerPropertyIdentifier: executionPlanStatus
+  planningStatus:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpGateReview
+    containerPropertyIdentifier: planningStatus
+  costEstimationStatus:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpGateReview
+    containerPropertyIdentifier: costEstimationStatus
+  readinessStatus:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpGateReview
+    containerPropertyIdentifier: readinessStatus
+  closedOut:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpGateReview
+    containerPropertyIdentifier: closedOut
+  belongsToScope:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpGateReview
+    containerPropertyIdentifier: belongsToScope
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+      version: v1

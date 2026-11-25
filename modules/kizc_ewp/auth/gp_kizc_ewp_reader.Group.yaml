@@ -1,0 +1,30 @@
+name: gp_kizc_ewp_reader
+sourceId: '{{ read_source_id }}'
+metadata:
+  origin: cognite-toolkit
+  module: kizc_ewp
+capabilities:
+- dataModelsAcl:
+    actions:
+    - READ
+    scope:
+      spaceIdScope:
+        spaceIds:
+        - sp_kizc_ewp_model
+        - cdf_cdm
+        - cdf_cdm_units
+- dataModelInstancesAcl:
+    actions:
+    - READ
+    scope:
+      spaceIdScope:
+        spaceIds:
+        - sp_kizc_ewp_instances
+- rawAcl:
+    actions:
+    - READ
+    scope:
+      tableScope:
+        dbsToTables:
+          kiz_scopes: []
+          kizc_context: []

@@ -1,0 +1,60 @@
+space: sp_kizc_ewp_model
+externalId: EwpDocument
+name: EwpDocument
+version: v1
+implements:
+- type: view
+  space: cdf_cdm
+  externalId: CogniteDescribable
+  version: v1
+- type: view
+  space: cdf_cdm
+  externalId: CogniteSourceable
+  version: v1
+properties:
+  documentNumber:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocument
+    containerPropertyIdentifier: documentNumber
+  neoDocument:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocument
+    containerPropertyIdentifier: neoDocument
+  neoMatchStatus:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocument
+    containerPropertyIdentifier: neoMatchStatus
+  revisions:
+    connectionType: multi_reverse_direct_relation
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpDocumentRevision
+      version: v1
+    through:
+      source:
+        type: view
+        space: sp_kizc_ewp_model
+        externalId: EwpDocumentRevision
+        version: v1
+      identifier: belongsToDocument
+  scopes:
+    connectionType: multi_reverse_direct_relation
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+      version: v1
+    through:
+      source:
+        type: view
+        space: sp_kizc_ewp_model
+        externalId: EwpWorkScope
+        version: v1
+      identifier: documentedBy

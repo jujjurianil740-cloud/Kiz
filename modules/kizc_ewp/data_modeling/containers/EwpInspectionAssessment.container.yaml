@@ -1,0 +1,30 @@
+space: sp_kizc_ewp_model
+externalId: EwpInspectionAssessment
+name: EwpInspectionAssessment
+usedFor: node
+properties:
+  isInScope:
+    type:
+      type: text
+    nullable: true
+  inspectionStatus:
+    type:
+      type: text
+    nullable: true
+  reportStatus:
+    type:
+      type: text
+    nullable: true
+  belongsToScope:
+    type:
+      type: direct
+    nullable: true
+  inspectsDiscipline:
+    type:
+      type: direct
+    nullable: true
+indexes:
+  ix_belongsToScope:
+    indexType: btree
+    properties:
+    - belongsToScope

@@ -1,0 +1,54 @@
+space: sp_kizc_ewp_model
+externalId: EwpDocumentRevision
+name: EwpDocumentRevision
+usedFor: node
+properties:
+  revision:
+    type:
+      type: text
+    nullable: true
+  belongsToDocument:
+    type:
+      type: direct
+    nullable: true
+  isInitiated:
+    type:
+      type: text
+    nullable: true
+  issuedP1:
+    type:
+      type: text
+    nullable: true
+  status:
+    type:
+      type: text
+    nullable: true
+  scheduledEndTime:
+    type:
+      type: date
+    nullable: true
+  uploadDate:
+    type:
+      type: date
+    nullable: true
+  actualDate:
+    type:
+      type: date
+    nullable: true
+  installationIssued:
+    type:
+      type: text
+    nullable: true
+  neoRevision:
+    type:
+      type: direct
+    nullable: true
+  neoMatchStatus:
+    type:
+      type: text
+    nullable: true
+indexes:
+  ix_belongsToDocument:
+    indexType: btree
+    properties:
+    - belongsToDocument

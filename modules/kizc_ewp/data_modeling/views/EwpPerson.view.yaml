@@ -1,0 +1,26 @@
+space: sp_kizc_ewp_model
+externalId: EwpPerson
+name: EwpPerson
+version: v1
+implements:
+- type: view
+  space: cdf_cdm
+  externalId: CogniteDescribable
+  version: v1
+- type: view
+  space: cdf_cdm
+  externalId: CogniteSourceable
+  version: v1
+properties:
+  personId:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpPerson
+    containerPropertyIdentifier: personId
+  email:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpPerson
+    containerPropertyIdentifier: email

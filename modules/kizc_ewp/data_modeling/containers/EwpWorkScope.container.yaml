@@ -1,0 +1,174 @@
+space: sp_kizc_ewp_model
+externalId: EwpWorkScope
+name: EwpWorkScope
+usedFor: node
+properties:
+  scopeRowId:
+    type:
+      type: text
+    nullable: true
+  formEntry:
+    type:
+      type: text
+    nullable: true
+  formEntryValidated:
+    type:
+      type: text
+    nullable: true
+  p6Id:
+    type:
+      type: text
+    nullable: true
+  projectCode:
+    type:
+      type: text
+    nullable: true
+  scopeSequenceNo:
+    type:
+      type: text
+    nullable: true
+  executionPriority:
+    type:
+      type: text
+    nullable: true
+  shutdownRequirement:
+    type:
+      type: text
+    nullable: true
+  isBaseScope:
+    type:
+      type: text
+    nullable: true
+  scopeCategory:
+    type:
+      type: text
+    nullable: true
+  scopeStatus:
+    type:
+      type: text
+    nullable: true
+  inExecution:
+    type:
+      type: text
+    nullable: true
+  ewpReference:
+    type:
+      type: text
+    nullable: true
+  overallInspectionStatus:
+    type:
+      type: text
+    nullable: true
+  overallInspectionReportStatus:
+    type:
+      type: text
+    nullable: true
+  ewpHoldPointCount:
+    type:
+      type: int32
+    nullable: true
+  c1ForecastDate:
+    type:
+      type: date
+    nullable: true
+  isMocRequired:
+    type:
+      type: text
+    nullable: true
+  legacyScopeCode:
+    type:
+      type: text
+    nullable: true
+  oimCategorisation:
+    type:
+      type: text
+    nullable: true
+  integratedAssetPriority:
+    type:
+      type: text
+    nullable: true
+  latestStatus:
+    type:
+      type: text
+    nullable: true
+  l2Dropdown:
+    type:
+      type: text
+    nullable: true
+  mocReference:
+    type:
+      type: text
+    nullable: true
+  helperColumnsMarker:
+    type:
+      type: text
+    nullable: true
+  projectCodeName:
+    type:
+      type: text
+    nullable: true
+  compareString:
+    type:
+      type: text
+    nullable: true
+  duplicateCheck:
+    type:
+      type: text
+    nullable: true
+  inEwpTracker:
+    type:
+      type: text
+    nullable: true
+  inProjectsPassedGate1:
+    type:
+      type: text
+    nullable: true
+  inSubsystemReference:
+    type:
+      type: text
+    nullable: true
+  belongsToProject:
+    type:
+      type: direct
+    nullable: true
+  locatedInArea:
+    type:
+      type: direct
+    nullable: true
+  hasSplitBase:
+    type:
+      type: direct
+    nullable: true
+  belongsToSubsystem:
+    type:
+      type: direct
+    nullable: true
+  documentedBy:
+    type:
+      type: direct
+    nullable: true
+  iwpDocumentedBy:
+    type:
+      type: direct
+    nullable: true
+  responsibleFor:
+    type:
+      type: direct
+    nullable: true
+  createdBy:
+    type:
+      type: direct
+    nullable: true
+  modifiedBy:
+    type:
+      type: direct
+    nullable: true
+indexes:
+  ix_belongsToSubsystem:
+    indexType: btree
+    properties:
+    - belongsToSubsystem
+  ix_documentedBy:
+    indexType: btree
+    properties:
+    - documentedBy

@@ -1,0 +1,54 @@
+space: sp_kizc_ewp_model
+externalId: EwpGateReview
+name: EwpGateReview
+usedFor: node
+properties:
+  gate:
+    type:
+      type: text
+    nullable: true
+  scheduledEndTime:
+    type:
+      type: date
+    nullable: true
+  p6ForecastDate:
+    type:
+      type: date
+    nullable: true
+  apeForecastDate:
+    type:
+      type: date
+    nullable: true
+  endTime:
+    type:
+      type: date
+    nullable: true
+  executionPlanStatus:
+    type:
+      type: text
+    nullable: true
+  planningStatus:
+    type:
+      type: text
+    nullable: true
+  costEstimationStatus:
+    type:
+      type: text
+    nullable: true
+  readinessStatus:
+    type:
+      type: text
+    nullable: true
+  closedOut:
+    type:
+      type: text
+    nullable: true
+  belongsToScope:
+    type:
+      type: direct
+    nullable: true
+indexes:
+  ix_belongsToScope:
+    indexType: btree
+    properties:
+    - belongsToScope

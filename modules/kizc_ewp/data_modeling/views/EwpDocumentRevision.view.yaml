@@ -1,0 +1,85 @@
+space: sp_kizc_ewp_model
+externalId: EwpDocumentRevision
+name: EwpDocumentRevision
+version: v1
+implements:
+- type: view
+  space: cdf_cdm
+  externalId: CogniteDescribable
+  version: v1
+- type: view
+  space: cdf_cdm
+  externalId: CogniteSourceable
+  version: v1
+properties:
+  revision:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocumentRevision
+    containerPropertyIdentifier: revision
+  belongsToDocument:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocumentRevision
+    containerPropertyIdentifier: belongsToDocument
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpDocument
+      version: v1
+  isInitiated:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocumentRevision
+    containerPropertyIdentifier: isInitiated
+  issuedP1:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocumentRevision
+    containerPropertyIdentifier: issuedP1
+  status:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocumentRevision
+    containerPropertyIdentifier: status
+  scheduledEndTime:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocumentRevision
+    containerPropertyIdentifier: scheduledEndTime
+  uploadDate:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocumentRevision
+    containerPropertyIdentifier: uploadDate
+  actualDate:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocumentRevision
+    containerPropertyIdentifier: actualDate
+  installationIssued:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocumentRevision
+    containerPropertyIdentifier: installationIssued
+  neoRevision:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocumentRevision
+    containerPropertyIdentifier: neoRevision
+  neoMatchStatus:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpDocumentRevision
+    containerPropertyIdentifier: neoMatchStatus

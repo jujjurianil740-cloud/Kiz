@@ -1,0 +1,13 @@
+externalId: tr_kizc_ctx_scope_context_checks
+name: 'Kiz-C contextualization: scope context checks'
+destination:
+  type: raw
+  database: kizc_context
+  table: scope_context_checks
+dataSetExternalId: ds_kizc_ewp
+ignoreNullFields: false
+isPublic: true
+conflictMode: upsert
+authentication:
+  clientId: '{{ transformation_client_id }}'
+  clientSecret: '{{ transformation_client_secret }}'

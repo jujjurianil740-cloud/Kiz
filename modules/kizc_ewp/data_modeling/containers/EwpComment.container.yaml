@@ -1,0 +1,17 @@
+space: sp_kizc_ewp_model
+externalId: EwpComment
+name: EwpComment
+usedFor: node
+properties:
+  kind:
+    type:
+      type: text
+    nullable: true
+  text:
+    type:
+      type: text
+    nullable: true
+  commentsOn:
+    type:
+      type: direct
+    nullable: true

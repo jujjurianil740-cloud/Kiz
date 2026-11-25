@@ -1,0 +1,26 @@
+space: sp_kizc_ewp_model
+externalId: EwpSystem
+name: EwpSystem
+usedFor: node
+properties:
+  systemCode:
+    type:
+      type: text
+    nullable: true
+  asset:
+    type:
+      type: direct
+    nullable: true
+  assetMatchScore:
+    type:
+      type: float64
+    nullable: true
+  assetMatchStatus:
+    type:
+      type: text
+    nullable: true
+constraints:
+  uq_systemCode:
+    constraintType: uniqueness
+    properties:
+    - systemCode

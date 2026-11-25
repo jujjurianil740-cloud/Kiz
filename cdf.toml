@@ -1,0 +1,3 @@
+[cdf]
+default_organization_dir = "."
+default_env = "dev"

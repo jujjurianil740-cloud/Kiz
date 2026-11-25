@@ -1,0 +1,32 @@
+space: sp_kizc_ewp_model
+externalId: EwpComment
+name: EwpComment
+version: v1
+implements:
+- type: view
+  space: cdf_cdm
+  externalId: CogniteDescribable
+  version: v1
+- type: view
+  space: cdf_cdm
+  externalId: CogniteSourceable
+  version: v1
+properties:
+  kind:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpComment
+    containerPropertyIdentifier: kind
+  text:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpComment
+    containerPropertyIdentifier: text
+  commentsOn:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpComment
+    containerPropertyIdentifier: commentsOn

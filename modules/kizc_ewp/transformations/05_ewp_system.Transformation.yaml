@@ -1,0 +1,16 @@
+externalId: tr_kizc_ewp_system
+name: Kiz-C EwpSystem
+destination:
+  type: nodes
+  view:
+    space: sp_kizc_ewp_model
+    externalId: EwpSystem
+    version: v1
+  instanceSpace: sp_kizc_ewp_instances
+dataSetExternalId: ds_kizc_ewp
+ignoreNullFields: false
+isPublic: true
+conflictMode: upsert
+authentication:
+  clientId: '{{ transformation_client_id }}'
+  clientSecret: '{{ transformation_client_secret }}'

@@ -1,0 +1,18 @@
+space: sp_kizc_ewp_model
+externalId: EwpPerson
+name: EwpPerson
+usedFor: node
+properties:
+  personId:
+    type:
+      type: text
+    nullable: true
+  email:
+    type:
+      type: text
+    nullable: true
+constraints:
+  uq_email:
+    constraintType: uniqueness
+    properties:
+    - email

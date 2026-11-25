@@ -1,0 +1,9 @@
+space: sp_kizc_ewp_model
+externalId: EwpScopeSplitBaseSubsystem
+name: EwpScopeSplitBaseSubsystem
+usedFor: node
+properties:
+  code:
+    type:
+      type: text
+    nullable: true

@@ -1,0 +1,327 @@
+space: sp_kizc_ewp_model
+externalId: EwpWorkScope
+name: EwpWorkScope
+version: v1
+implements:
+- type: view
+  space: cdf_cdm
+  externalId: CogniteDescribable
+  version: v1
+- type: view
+  space: cdf_cdm
+  externalId: CogniteSourceable
+  version: v1
+properties:
+  scopeRowId:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: scopeRowId
+  formEntry:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: formEntry
+  formEntryValidated:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: formEntryValidated
+  p6Id:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: p6Id
+  projectCode:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: projectCode
+  scopeSequenceNo:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: scopeSequenceNo
+  executionPriority:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: executionPriority
+  shutdownRequirement:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: shutdownRequirement
+  isBaseScope:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: isBaseScope
+  scopeCategory:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: scopeCategory
+  scopeStatus:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: scopeStatus
+  inExecution:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: inExecution
+  ewpReference:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: ewpReference
+  overallInspectionStatus:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: overallInspectionStatus
+  overallInspectionReportStatus:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: overallInspectionReportStatus
+  ewpHoldPointCount:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: ewpHoldPointCount
+  c1ForecastDate:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: c1ForecastDate
+  isMocRequired:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: isMocRequired
+  legacyScopeCode:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: legacyScopeCode
+  oimCategorisation:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: oimCategorisation
+  integratedAssetPriority:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: integratedAssetPriority
+  latestStatus:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: latestStatus
+  l2Dropdown:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: l2Dropdown
+  mocReference:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: mocReference
+  helperColumnsMarker:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: helperColumnsMarker
+  projectCodeName:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: projectCodeName
+  compareString:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: compareString
+  duplicateCheck:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: duplicateCheck
+  inEwpTracker:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: inEwpTracker
+  inProjectsPassedGate1:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: inProjectsPassedGate1
+  inSubsystemReference:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: inSubsystemReference
+  belongsToProject:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: belongsToProject
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpProject
+      version: v1
+  locatedInArea:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: locatedInArea
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpArea
+      version: v1
+  hasSplitBase:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: hasSplitBase
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpScopeSplitBaseSubsystem
+      version: v1
+  belongsToSubsystem:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: belongsToSubsystem
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpSubsystem
+      version: v1
+  documentedBy:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: documentedBy
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpDocument
+      version: v1
+  iwpDocumentedBy:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: iwpDocumentedBy
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpDocument
+      version: v1
+  responsibleFor:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: responsibleFor
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpPerson
+      version: v1
+  createdBy:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: createdBy
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpPerson
+      version: v1
+  modifiedBy:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+    containerPropertyIdentifier: modifiedBy
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpPerson
+      version: v1
+  gateReviews:
+    connectionType: multi_reverse_direct_relation
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpGateReview
+      version: v1
+    through:
+      source:
+        type: view
+        space: sp_kizc_ewp_model
+        externalId: EwpGateReview
+        version: v1
+      identifier: belongsToScope
+  inspectionAssessments:
+    connectionType: multi_reverse_direct_relation
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpInspectionAssessment
+      version: v1
+    through:
+      source:
+        type: view
+        space: sp_kizc_ewp_model
+        externalId: EwpInspectionAssessment
+        version: v1
+      identifier: belongsToScope

@@ -1,0 +1,68 @@
+name: gp_kizc_ewp_owner
+sourceId: '{{ owner_source_id }}'
+metadata:
+  origin: cognite-toolkit
+  module: kizc_ewp
+capabilities:
+- dataModelsAcl:
+    actions:
+    - READ
+    - WRITE
+    scope:
+      spaceIdScope:
+        spaceIds:
+        - sp_kizc_ewp_model
+- dataModelsAcl:
+    actions:
+    - READ
+    scope:
+      spaceIdScope:
+        spaceIds:
+        - cdf_cdm
+        - cdf_cdm_units
+- dataModelInstancesAcl:
+    actions:
+    - READ
+    - WRITE
+    - WRITE_PROPERTIES
+    scope:
+      spaceIdScope:
+        spaceIds:
+        - sp_kizc_ewp_instances
+- rawAcl:
+    actions:
+    - READ
+    - WRITE
+    scope:
+      tableScope:
+        dbsToTables:
+          kiz_scopes: []
+          kizc_context: []
+- datasetsAcl:
+    actions:
+    - READ
+    - OWNER
+    scope:
+      idScope:
+        ids:
+        - ds_kizc_ewp
+- transformationsAcl:
+    actions:
+    - READ
+    - WRITE
+    scope:
+      datasetScope:
+        ids:
+        - ds_kizc_ewp
+- sessionsAcl:
+    actions:
+    - LIST
+    - CREATE
+    scope:
+      all: {}
+- entitymatchingAcl:
+    actions:
+    - READ
+    - WRITE
+    scope:
+      all: {}

@@ -1,0 +1,13 @@
+space: sp_kizc_ewp_model
+externalId: EwpProject
+name: EwpProject
+usedFor: node
+properties:
+  code:
+    type:
+      type: text
+    nullable: true
+  ifsSite:
+    type:
+      type: direct
+    nullable: true

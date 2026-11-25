@@ -1,0 +1,54 @@
+space: sp_kizc_ewp_model
+externalId: EwpInspectionAssessment
+name: EwpInspectionAssessment
+version: v1
+implements:
+- type: view
+  space: cdf_cdm
+  externalId: CogniteDescribable
+  version: v1
+- type: view
+  space: cdf_cdm
+  externalId: CogniteSourceable
+  version: v1
+properties:
+  isInScope:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpInspectionAssessment
+    containerPropertyIdentifier: isInScope
+  inspectionStatus:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpInspectionAssessment
+    containerPropertyIdentifier: inspectionStatus
+  reportStatus:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpInspectionAssessment
+    containerPropertyIdentifier: reportStatus
+  belongsToScope:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpInspectionAssessment
+    containerPropertyIdentifier: belongsToScope
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+      version: v1
+  inspectsDiscipline:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpInspectionAssessment
+    containerPropertyIdentifier: inspectsDiscipline
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpInspectionDiscipline
+      version: v1

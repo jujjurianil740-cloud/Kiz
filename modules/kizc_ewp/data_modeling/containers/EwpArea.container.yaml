@@ -1,0 +1,13 @@
+space: sp_kizc_ewp_model
+externalId: EwpArea
+name: EwpArea
+usedFor: node
+properties:
+  areaCode:
+    type:
+      type: text
+    nullable: true
+  ifsLocation:
+    type:
+      type: direct
+    nullable: true

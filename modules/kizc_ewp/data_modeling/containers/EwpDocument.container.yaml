@@ -1,0 +1,22 @@
+space: sp_kizc_ewp_model
+externalId: EwpDocument
+name: EwpDocument
+usedFor: node
+properties:
+  documentNumber:
+    type:
+      type: text
+    nullable: true
+  neoDocument:
+    type:
+      type: direct
+    nullable: true
+  neoMatchStatus:
+    type:
+      type: text
+    nullable: true
+constraints:
+  uq_documentNumber:
+    constraintType: uniqueness
+    properties:
+    - documentNumber

@@ -1,0 +1,74 @@
+space: sp_kizc_ewp_model
+externalId: EwpSubsystem
+name: EwpSubsystem
+version: v1
+implements:
+- type: view
+  space: cdf_cdm
+  externalId: CogniteDescribable
+  version: v1
+- type: view
+  space: cdf_cdm
+  externalId: CogniteSourceable
+  version: v1
+properties:
+  subsystemKey:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpSubsystem
+    containerPropertyIdentifier: subsystemKey
+  subsystemCode:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpSubsystem
+    containerPropertyIdentifier: subsystemCode
+  belongsToSystem:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpSubsystem
+    containerPropertyIdentifier: belongsToSystem
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpSystem
+      version: v1
+  asset:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpSubsystem
+    containerPropertyIdentifier: asset
+    source:
+      type: view
+      space: cdf_cdm
+      externalId: CogniteAsset
+      version: v1
+  assetMatchScore:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpSubsystem
+    containerPropertyIdentifier: assetMatchScore
+  assetMatchStatus:
+    container:
+      type: container
+      space: sp_kizc_ewp_model
+      externalId: EwpSubsystem
+    containerPropertyIdentifier: assetMatchStatus
+  scopes:
+    connectionType: multi_reverse_direct_relation
+    source:
+      type: view
+      space: sp_kizc_ewp_model
+      externalId: EwpWorkScope
+      version: v1
+    through:
+      source:
+        type: view
+        space: sp_kizc_ewp_model
+        externalId: EwpWorkScope
+        version: v1
+      identifier: belongsToSubsystem

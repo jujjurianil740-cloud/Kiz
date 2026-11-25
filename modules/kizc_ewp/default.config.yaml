@@ -1,0 +1,12 @@
+transformation_client_id: ${IDP_CLIENT_ID}
+transformation_client_secret: ${IDP_CLIENT_SECRET}
+owner_source_id: ${OWNER_GROUP_SOURCE_ID}
+read_source_id: ${READ_GROUP_SOURCE_ID}
+neo_model_space: REPLACE
+neo_model: REPLACE
+neo_model_version: REPLACE
+neo_document_view: Document
+neo_doc_number_property: doc_number
+neo_revision_view: Revision
+neo_revision_document_property: REPLACE
+neo_revision_code_property: REPLACE
